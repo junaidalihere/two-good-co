@@ -68,8 +68,8 @@ tl.to("#loading",{
 tl.from("#nav .logo ,.navpart1 h1 ",{
     y:-50,
     opacity:0,
-    duration:1,
-    stagger:0.2,
+    duration:.2,
+    stagger:0.1,
 })
 
 
@@ -83,8 +83,8 @@ tl.from("#nav .logo ,.navpart1 h1 ",{
 
 tl.from(".page1 h1",{
     y:100,
-    duration:0.4,
-    delay:0.5,
+    duration:0.2,
+    delay:0.2,
     opacity:0,
     stagger:0.3,
     
@@ -98,11 +98,7 @@ tl.from("#videoContaner",{
   scale:0.1,
 duration:1,
 opacity:0,
-//   scrollTrigger:{
-//            trigger: "#videoContaner",
-//            scroller: "body",
-//            start: "top 70%"
-//   }
+
 
 })
 
