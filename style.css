@@ -129,10 +129,9 @@ nav {
     padding: 0vw 1vw;
     margin-top: 1vw;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
-    position: relative;
-    z-index: -1;
+  
 
 }
 
@@ -163,7 +162,7 @@ nav {
 
 .page3 {
     width: 100%;
-    min-height: 50vh;
+    min-height: 23vh;
     padding: 0vw 1vw;
     /* background-color: aqua; */
     display: flex;
@@ -509,11 +508,11 @@ nav {
     }
 
     .page1 {
-        min-height: 87vh;
+        min-height: 48vh;
     }
 
     .page2 {
-        min-height: 45vh;
+        min-height: 29vh;
     }
 
     .page3 h1 {
@@ -524,9 +523,14 @@ nav {
         font-size: 2vw;
         border-bottom: 1px solid black;
     }
+    .page5 {
+     
+        min-height: 43vh;
+       
+    }
 
     .page6 {
-        min-height: 100vh;
+        min-height: 70vh;
     }
 
     .page6 .child {
@@ -535,6 +539,12 @@ nav {
 
     .page6 .child p {
         font-size: 1.8vw;
+    }
+
+    .page7 {
+       
+        min-height: 56vh;
+       
     }
 
     .page7 h1 {
